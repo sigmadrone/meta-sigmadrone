@@ -11,4 +11,5 @@ SERIAL_CONSOLE = "115200 ttymxc1"
 
 MACHINE_FEATURES += "pci touchscreen"
 
+IMAGE_INSTALL_append = " sshd"
 KERNEL_IMAGETYPE = "zImage"
