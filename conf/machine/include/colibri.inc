@@ -16,5 +16,20 @@ SERIAL_CONSOLE = "115200 ttymxc1"
 
 MACHINE_FEATURES += "pci touchscreen"
 
-IMAGE_INSTALL_append = " sshd i2c-tools nfs-utils nfs-utils-client json-glib libjson boost hostap-daemon dhcp-server dhcp-server-config"
+IMAGE_INSTALL_append = " \
+	sshd \
+	i2c-tools \
+	nfs-utils \
+	nfs-utils-client \
+	json-glib \
+	libjson \
+	boost \
+	hostap-daemon \
+	dhcp-server \
+	dhcp-server-config \
+	openssh-sftp-server \
+	gdb \
+	gdbserver \
+"
+
 KERNEL_IMAGETYPE = "zImage"
