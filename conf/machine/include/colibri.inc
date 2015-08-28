@@ -24,7 +24,8 @@ IMAGE_INSTALL_append = " \
 	json-glib \
 	libjson \
 	boost \
-	hostap-daemon \
+	linux-firmware \
+	hostapd \
 	dhcp-server \
 	dhcp-server-config \
 	openssh-sftp-server \
