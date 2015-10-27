@@ -31,6 +31,8 @@ IMAGE_INSTALL_append = " \
 	openssh-sftp-server \
 	gdb \
 	gdbserver \
+	lighttpd \
+	sigmad \
 "
 
 KERNEL_IMAGETYPE = "zImage"
