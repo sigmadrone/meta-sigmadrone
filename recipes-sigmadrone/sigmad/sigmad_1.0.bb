@@ -34,7 +34,7 @@ do_install() {
     install -m 0755 ${S}/source/sigmad/bin-${SIGMADRONE_ARCH}/sigmad ${D}${bindir}
     install -m 644 -D ${S}/source/tools/webui/images/logo.ico ${D}/www/pages/images/logo.ico
     install -m 644 -D ${S}/source/tools/webui/images/logo.svg ${D}/www/pages/images/logo.svg
-    install -m 644 -D ${S}/source/tools/webui/index.html ${D}/www/pages/sigmad-index.html
+    install -m 644 -D ${S}/source/tools/webui/main.html ${D}/www/pages/main.html
     install -m 644 -D ${S}/source/tools/webui/bootstrap/fonts/glyphicons-halflings-regular.eot ${D}/www/pages/bootstrap/fonts/glyphicons-halflings-regular.eot
     install -m 644 -D ${S}/source/tools/webui/bootstrap/fonts/glyphicons-halflings-regular.ttf ${D}/www/pages/bootstrap/fonts/glyphicons-halflings-regular.ttf
     install -m 644 -D ${S}/source/tools/webui/bootstrap/fonts/glyphicons-halflings-regular.svg ${D}/www/pages/bootstrap/fonts/glyphicons-halflings-regular.svg
