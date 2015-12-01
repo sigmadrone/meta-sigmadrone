@@ -5,4 +5,4 @@ include broadcom-nvram-config.inc
 
 CHIP_MODEL = "4330"
 
-COMPATIBLE_MACHINE = "(colibri-dual|colibri-quad)"
+COMPATIBLE_MACHINE = "(colibri|colibri-dual|colibri-quad)"

@@ -1,6 +1,6 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
-SRC_URI_append_wandboard = " \
+SRC_URI_append = " \
 	file://wandboard-dhcpd.conf \
 	file://dhcp-server \
 "
