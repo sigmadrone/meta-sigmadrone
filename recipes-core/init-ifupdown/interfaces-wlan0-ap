@@ -11,7 +11,7 @@ iface wlan0 inet static
         broadcast 10.10.10.255
         network 10.10.10.0    
         netmask 255.255.255.0
-	post-up /sbin/iwconfig wlan0 power off
+	post-up /usr/sbin/iw dev wlan0 power_save off
         post-up /etc/init.d/dhcp-server start
         post-up /etc/init.d/hostapd start    
         down /etc/init.d/hostapd stop        
