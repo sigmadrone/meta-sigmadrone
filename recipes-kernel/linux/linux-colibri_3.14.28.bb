@@ -8,7 +8,7 @@ DEPENDS += "lzop-native bc-native"
 
 # Colibri branch - based on Wandboard 3.14.28_1.0.0_ga from Wandboard git
 SRCBRANCH = "colibri_3.14.28"
-SRCREV = "9432ee0080a5f54a056bdeef97aa196bbec147f3"
+SRCREV = "d4e2e875d7b2a495faf12faaafb9e10d1b8f8a29"
 LOCALVERSION = "-1.0.0-colibri"
 
 COMPATIBLE_MACHINE = "(colibri)"
