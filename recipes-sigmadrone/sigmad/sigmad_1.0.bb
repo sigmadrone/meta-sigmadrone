@@ -36,7 +36,13 @@ do_install() {
     install -m 644 -D ${S}/source/tools/webui/images/logo.svg ${D}/www/pages/images/logo.svg
     install -m 644 -D ${S}/source/tools/webui/main.html ${D}/www/pages/main.html
     install -m 644 -D ${S}/source/tools/webui/jquery/jquery-2.1.1.min.js ${D}/www/pages/jquery/jquery-2.1.1.min.js
+    install -m 644 -D ${S}/source/tools/webui/js/togglebutton.js ${D}/www/pages/js/togglebutton.js
+    install -m 644 -D ${S}/source/tools/webui/js/chart2d.js ${D}/www/pages/js/chart2d.js
+    install -m 644 -D ${S}/source/tools/webui/js/chartmodel.js ${D}/www/pages/js/chartmodel.js
+    install -m 644 -D ${S}/source/tools/webui/js/vis.min.js ${D}/www/pages/js/vis.min.js
     install -m 644 -D ${S}/source/tools/webui/js/formmvc.js ${D}/www/pages/js/formmvc.js
+    install -m 644 -D ${S}/source/tools/webui/js/vis.min.css ${D}/www/pages/js/vis.min.css
+    install -m 644 -D ${S}/source/tools/webui/js/rpcclient.js ${D}/www/pages/js/rpcclient.js
     install -m 644 -D ${S}/source/tools/webui/bootstrap/js/npm.js ${D}/www/pages/bootstrap/js/npm.js
     install -m 644 -D ${S}/source/tools/webui/bootstrap/js/bootstrap.js ${D}/www/pages/bootstrap/js/bootstrap.js
     install -m 644 -D ${S}/source/tools/webui/bootstrap/js/bootstrap.min.js ${D}/www/pages/bootstrap/js/bootstrap.min.js
