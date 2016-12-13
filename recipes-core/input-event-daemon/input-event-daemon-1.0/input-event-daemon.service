@@ -1,0 +1,12 @@
+[Unit]
+Description=input-event-daemon handling of input events
+
+[Service]
+Type=forking
+ExecStart=/usr/sbin/input-event-daemon
+KillSignal=SIGINT
+RestartSec=5
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

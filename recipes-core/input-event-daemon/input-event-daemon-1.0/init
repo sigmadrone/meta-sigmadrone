@@ -1,0 +1,32 @@
+#!/bin/sh
+DAEMON=/usr/sbin/input-event-daemon
+NAME=input-event-daemon
+DESC="Input Event Daemon"
+ARGS=
+
+test -f $DAEMON || exit 0
+
+set -e
+
+case "$1" in
+    start)
+	echo -n "Starting $DESC: "
+	start-stop-daemon -S -x $DAEMON -- $ARGS
+	echo "$NAME."
+	;;
+    stop)
+	echo -n "Stopping $DESC: "
+	start-stop-daemon -K -x $DAEMON
+	echo "$NAME."
+	;;
+    restart)
+	$0 stop
+	$0 start
+	;;
+    *)
+	echo "Usage: $0 {start|stop|restart|reload}"
+	exit 1
+	;;
+esac
+
+exit 0
