@@ -22,3 +22,4 @@ SRC_URI = "${COLIBRI_GITHUB_MIRROR};branch=${SRCBRANCH} \
            file://defconfig \
 "
 
+KERNEL_MODULE_AUTOLOAD = "bcmdhd"
