@@ -17,7 +17,7 @@ DEPENDS_mxs += "elftosb-native openssl-native"
 
 PROVIDES += "u-boot"
 
-SRCBRANCH ??= "colibri-2014.10"
+SRCBRANCH ??= "colibri-2017.11"
 
 SRC_URI = "git://github.com/sigmadrone/u-boot-colibri.git;branch=${SRCBRANCH}"
 
