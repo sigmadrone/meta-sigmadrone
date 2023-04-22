@@ -18,7 +18,7 @@ LOCALVERSION ?= "-${SRCBRANCH}"
 COLIBRI_GITHUB_MIRROR ?= "git://github.com/sigmadrone/linux-colibri.git"
 
 # SRC_URI for wandboard kernel
-SRC_URI = "${COLIBRI_GITHUB_MIRROR};branch=${SRCBRANCH} \
+SRC_URI = "${COLIBRI_GITHUB_MIRROR};branch=${SRCBRANCH};protocol=https \
            file://defconfig \
 "
 

@@ -5,7 +5,7 @@ LICENSE = "GPLv3"
 PV = "1.0"
 SRCREV="${AUTOREV}"
 SECTION = "apps"
-SRC_URI = "git://dev.sigmadrone.org/sigmadrone/sigmadrone.git;branch=master;protocol=https \
+SRC_URI = "git://github.com/sigmadrone/sigmadrone.git;branch=master;protocol=https \
 	file://init \
 "
 LIC_FILES_CHKSUM = "file://doc/LICENSE;md5=df37e7030b5a0d0adf6ab3fbbe547e38"

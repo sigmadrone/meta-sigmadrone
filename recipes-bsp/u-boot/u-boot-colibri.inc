@@ -19,7 +19,7 @@ PROVIDES += "u-boot"
 
 SRCBRANCH ??= "colibri-2017.11"
 
-SRC_URI = "git://github.com/sigmadrone/u-boot-colibri.git;branch=${SRCBRANCH}"
+SRC_URI = "git://github.com/sigmadrone/u-boot-colibri.git;branch=${SRCBRANCH};protocol=https"
 
 S = "${WORKDIR}/git"
 
